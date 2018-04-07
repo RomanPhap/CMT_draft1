@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.roman_jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background: url(../images/Caritas_TraoXeLan_04.JPG) no-repeat center center;	
+  border-radius: 0.3rem;
+}
+
+.roman_water {
+  padding: 0 0;
+  margin-bottom: 0;
+  background: url(../images/water_supply.jpg) no-repeat center center fixed;	
+  border-radius: 0;
+}
+
+.roman_school {
+  padding: 0 0;
+  margin-bottom: 0;
+  background: url(../images/primary-school-in-vietnam-children-at-their-desk.jpg) no-repeat center center fixed;	
+  border-radius: 0;
+}
+
+.roman_center {
+  padding: 0 0;
+  margin-bottom: 0;
+  background: url(../images/center.jpg) no-repeat center center fixed;
+  border-radius: 0;
+}
