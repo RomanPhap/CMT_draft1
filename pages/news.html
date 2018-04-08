@@ -2,7 +2,7 @@
 <html lang="vn">
 <head>
 	<meta charset="utf-8">
-	<title>Caritas My Tho : Ecole pour enfants handicapés</title>
+	<title>Caritas My Tho : News</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
@@ -30,24 +30,28 @@
       </div>
   </nav>
 
-	<div class="container-fluid">
+	<div class="container">
     <div class="row">
       <div class="col-12">
-      <h1>News #1 Title</h1>
+      <h1 id="news_title">News #1 Title</h1>
     </div>
     </div>
     <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <img src="../images/Caritas_TraoXeLan_04.jpg" class="img-fluid" alt="News #1" />
+      <img id="news_image" src="../images/Caritas_TraoXeLan_04.JPG" class="img-fluid" alt="News #1" />
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <h3>News #1 subtitle</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt impedit est voluptatem doloremque architecto corporis suscipit quidem ratione! Quis laborum nam optio dolorem doloremque ex nobis quibusdam ad quo dolores? </p>
+      <h3 id="news_subtitle">News #1 subtitle</h3>
+      <p id="news_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt impedit est voluptatem doloremque architecto corporis suscipit quidem ratione! Quis laborum nam optio dolorem doloremque ex nobis quibusdam ad quo dolores? </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
     </div>
   </div>
   </div>
-<footer class="text-center">
+
+  <!-- THIS IS THE LINK TO THE JS SCRIPT THAT WILL WRITE EVERYTHING ON THE PAGE FOR THE SELECTED NEWS-->
+  <script src="../js/news.js"></script>
+
+  <footer class="text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -55,6 +59,6 @@
           </div>
         </div>
       </div>
-    </footer>
+  </footer>
 </body>
 </html>
