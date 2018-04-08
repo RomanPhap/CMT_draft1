@@ -4,11 +4,13 @@
 	<meta charset="utf-8">
 	<title>Caritas My Tho : News</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap-4.0.0.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap-4.0.0.css" rel="stylesheet">
 	<link href="../css/roman.css" rel="stylesheet">
-	<!-- script JS ? -->
+	<!-- script JS ! -->
+  <!-- THIS IS THE LINK TO THE JS SCRIPT THAT WILL WRITE EVERYTHING ON THE PAGE FOR THE SELECTED NEWS-->
+  <script src="../js/news.js"></script>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
     </div>
     <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <img id="news_image" src="../images/Caritas_TraoXeLan_04.JPG" class="img-fluid" alt="News #1" />
+      <img id="news_image" src="../images/Caritas-Vietnam.gif" class="img-fluid" alt="News #1" />
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <h3 id="news_subtitle">News #1 subtitle</h3>
@@ -47,9 +49,10 @@
     </div>
   </div>
   </div>
-
-  <!-- THIS IS THE LINK TO THE JS SCRIPT THAT WILL WRITE EVERYTHING ON THE PAGE FOR THE SELECTED NEWS-->
-  <script src="../js/news.js"></script>
+  <script type="text/javascript">
+    //this line allows to load the good story
+    loadNews();
+  </script>
 
   <footer class="text-center">
       <div class="container">
