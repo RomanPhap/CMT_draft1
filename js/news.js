@@ -1,6 +1,7 @@
 /*
 	JS document by Roman
 */
+/*s
 function loadNews(){
 	changeNewsContent(2);
 }
