@@ -50,3 +50,17 @@
    -o-object-fit: contain;
    object-fit: contain; 
 }
+
+.roman_80 {
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roman_carousel-control-prev-icon {
+  background-image: url("../icons/prev.png");
+}
+
+.roman_carousel-control-next-icon {
+  background-image: url("../icons/next.png");
+}
