@@ -1,11 +1,31 @@
 /*
 	JS document by Roman
 */
-/*s
+
 function loadNews(){
-	changeNewsContent(2);
+	//changeNewsContent(2);
+	loadDoc();
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//		AJAX story changing
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+  	document.write(this.status);
+    if (this.readyState == 4 && this.status == 200) {
+      //not read
+      document.write(this.statusText);
+
+      //this.responseText;
+      //later responseText;
+    }
+  };
+  xhttp.open("GET", "newstest.txt", true);
+  xhttp.send();
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //		handle story changing
